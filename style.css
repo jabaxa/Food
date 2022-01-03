@@ -522,11 +522,7 @@ header .navbar a:hover {
 	header {
 		padding: 2rem;
 	}
-	
 }
-
-
-
 
 @media (max-width: 768px) {
 	#menu-bar {
@@ -563,5 +559,4 @@ header .navbar a:hover {
 	.order .row form .inputbox input {
 		width: 100%;
 	}
-	
 }
