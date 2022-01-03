@@ -433,17 +433,17 @@ header .navbar a:hover {
 .order .row form .inputbox input,
 .order .row form textarea {
 	padding: 1rem;
-	margin: 1rem;
+	margin: 1rem 0;
 	font-size: 1.7rem;
 	color: #333;
 	text-transform: none;
 	border: 0.1rem solid rgba(0, 0, 0, 0.3);
 	border-radius: 0.5rem;
-	width: 43%;
+	width: 47%;
 }
 
 .order .row form textarea {
-	width: 97%;
+	width: 100%;
 	resize: none;
 	height: 15rem;
 }
@@ -522,21 +522,12 @@ header .navbar a:hover {
 	header {
 		padding: 2rem;
 	}
-	.order .row form textarea {
-		width: 96%;
-	}
-}
-@media (max-width: 912px) {
-	.order .row form textarea {
-		width: 97%;
-	}
+	
 }
 
-@media (max-width: 550px) {
-	.order .row form textarea {
-		width: 96%;
-	}
-}
+
+
+
 @media (max-width: 768px) {
 	#menu-bar {
 		display: initial;
@@ -572,7 +563,5 @@ header .navbar a:hover {
 	.order .row form .inputbox input {
 		width: 100%;
 	}
-	.order .row form textarea {
-		width: 95%;
-	}
+	
 }
